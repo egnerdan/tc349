@@ -4,8 +4,6 @@
   margin: 0;
   padding: 0;
 
-
-
   li {
     background: #FFFFFF;
     float: left;
@@ -17,15 +15,9 @@
     background: #C0C0C0;
   }
 
-  button:hover{
-      background-color: #d35400;
-    }
-  }
-
 }
 
-.media-grid-sm li{
+.media-grid-sm li {
   width: 10%;
   height: 100px;
-
 }

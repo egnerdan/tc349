@@ -1,0 +1,135 @@
+/* ==========================================================================
+   base
+   ========================================================================== */
+
+html {
+background-color: #0312FF;
+background-image: url(img/background.png);
+}
+
+body {
+	width: 761px;
+	margin: 1.5em auto;
+	border-color: #B033B;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-color: #12BBFF;
+	border-bottom:none;
+
+}
+
+h1 {
+
+	text-align: center;
+	color: #ffffff;
+}
+
+h2 {
+	padding: 7px;
+	margin-right: -10px;
+	color: #ffffff;
+	background-color: #000000
+}
+
+h3 {
+
+	color: #ffffff;
+
+}
+
+h4{
+	font-family: "Arial Black", Gadget, sans-serif;
+
+}
+
+/* ==========================================================================
+   img
+   ========================================================================== */
+
+img {
+	margin-bottom: 15px;
+	margin-right: 25px;
+	border-color: #B033B;
+	border-style: solid;
+	border-width: 5px;
+	float:left;
+}
+
+
+/* ==========================================================================
+   links
+   ========================================================================== */
+
+a {
+  font-weight: bold;
+  color: #0312FF;
+  text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #FFA500;
+
+}
+
+a:visited {
+color: #800080;
+}
+
+a:active {
+background-color: #920404;
+}
+
+/* ==========================================================================
+   nav
+   ========================================================================== */
+
+#nav {
+
+list-style-type: none;
+background-color: #000000;
+text-align: center;
+
+padding-top: 15px;
+padding-bottom: 15px;
+
+margin-top: 200px;
+margin-bottom: 40px;
+margin-left: 0px;
+margin-right: -10px;
+
+border-style: solid;
+border-width: 3px;
+border-color: #FFFFFF;
+
+}
+
+#nav li {
+  display: inline;
+}
+
+#nav a {
+  padding-right: 30px;
+  padding-left: 30px;
+  border-left: 7px solid #FFFFFF;
+}
+
+#firstnav a {
+border-left: none;
+}
+
+/* ==========================================================================
+   footer
+   ========================================================================== */
+
+#footer {
+	height: 70px;
+  width:116%;
+	margin-left:-8%;
+  background-color: #000;
+	color: #FFF;
+	margin-bottom:-120px
+
+}
