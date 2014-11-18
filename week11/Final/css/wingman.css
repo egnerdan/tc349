@@ -3,24 +3,25 @@
    ========================================================================== */
 
 html {
-background-color: #0312FF;
-background-image: url(img/background.png);
+ background-image: url("background.png");
+ background-color: #0312FF;
 }
 
 body {
 	width: 761px;
-	margin: 1.5em auto;
+	margin: 1em auto;
 	border-color: #B033B;
 	border-style: solid;
 	border-width: 10px;
-	padding: 50px;
+	padding: 0px;
+	padding-left: 50px;
+	padding-right:50px;
 	background-color: #12BBFF;
 	border-bottom:none;
 
 }
 
 h1 {
-
 	text-align: center;
 	color: #ffffff;
 }
@@ -87,7 +88,6 @@ background-color: #920404;
    ========================================================================== */
 
 #nav {
-
 list-style-type: none;
 background-color: #000000;
 text-align: center;
