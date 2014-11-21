@@ -1,0 +1,152 @@
+@media (max-width: 600px) {
+  /* line 2, ../sass/components/_mobile.scss */
+  .port li {
+    width: 50%;
+  }
+}
+@media (max-width: 400px) {
+  /* line 8, ../sass/components/_mobile.scss */
+  .port li {
+    width: 100%;
+  }
+
+  /* line 12, ../sass/components/_mobile.scss */
+  header li {
+    display: block;
+    padding: 1em;
+  }
+  /* line 16, ../sass/components/_mobile.scss */
+  header li a {
+    font-size: 1.2em;
+  }
+}
+/* line 1, ../sass/components/_base.scss */
+html {
+  background-image: url("background.png");
+  background-color: #0312FF;
+}
+
+/* line 6, ../sass/components/_base.scss */
+body {
+  width: 761px;
+  margin: 1em auto;
+  border-color: #B033B;
+  border-style: solid;
+  border-width: 10px;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #12BBFF;
+  border-bottom: none;
+}
+/* line 20, ../sass/components/_base.scss */
+body h1 {
+  text-align: center;
+  color: #ffffff;
+}
+/* line 25, ../sass/components/_base.scss */
+body h2 {
+  padding: 7px;
+  margin-right: -10px;
+  color: #ffffff;
+  background-color: black;
+}
+/* line 32, ../sass/components/_base.scss */
+body h3 {
+  color: #ffffff;
+}
+/* line 38, ../sass/components/_base.scss */
+body h4 {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/* line 1, ../sass/components/_footer.scss */
+#footer {
+  height: 70px;
+  width: 116%;
+  margin-left: -8%;
+  background-color: #000;
+  color: #FFF;
+  margin-bottom: -120px;
+}
+/* line 2, ../sass/components/_footer.scss */
+#footer a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 18, ../sass/components/_footer.scss */
+#contact a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 1, ../sass/components/_img.scss */
+img {
+  margin-bottom: 15px;
+  margin-right: 25px;
+  border-color: #B033B;
+  border-style: solid;
+  border-width: 5px;
+  float: left;
+}
+
+/* line 1, ../sass/components/_link.scss */
+a {
+  font-weight: bold;
+  color: #0361a7;
+  text-decoration: none;
+}
+
+/* line 8, ../sass/components/_link.scss */
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #FFA500;
+}
+
+/* line 15, ../sass/components/_link.scss */
+a:visited {
+  color: #0361a7;
+}
+
+/* line 19, ../sass/components/_link.scss */
+a:active {
+  background-color: #920404;
+}
+
+/* line 1, ../sass/components/_nav.scss */
+#nav {
+  list-style-type: none;
+  background-color: #000000;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+  margin-right: -10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #FFFFFF;
+}
+/* line 18, ../sass/components/_nav.scss */
+#nav a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 23, ../sass/components/_nav.scss */
+#nav li {
+  display: inline;
+}
+/* line 28, ../sass/components/_nav.scss */
+#nav a {
+  padding-right: 30px;
+  padding-left: 30px;
+  border-left: 7px solid #FFFFFF;
+}
+
+/* line 36, ../sass/components/_nav.scss */
+#firstnav a {
+  border-left: none;
+}

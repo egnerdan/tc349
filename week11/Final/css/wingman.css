@@ -44,6 +44,8 @@ h4{
 
 }
 
+
+
 /* ==========================================================================
    img
    ========================================================================== */
@@ -59,7 +61,7 @@ img {
 
 
 /* ==========================================================================
-   links
+   link
    ========================================================================== */
 
 a {
@@ -70,13 +72,14 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #ffffff;
+	color: #fff;
+  text-color: #fff;
 	background-color: #FFA500;
 
 }
 
 a:visited {
-color: #800080;
+color: #0312FF;
 }
 
 a:active {
@@ -115,6 +118,7 @@ border-color: #FFFFFF;
   padding-left: 30px;
   border-left: 7px solid #FFFFFF;
 }
+
 
 #firstnav a {
 border-left: none;
